@@ -1,9 +1,18 @@
+:root{  /* Pseudoselector: se puede almacenar cualquier valor */
+  --claro: #ffffff;
+  --oscuro: #212121;
+  --primario: #ffc107;
+  --secundario: #0097a7;
+  --gris: #757575;
+}
+
 html {
   font-size: 62.5%; /* Reset the site size */
 }
 
 body {
   font-size: 16px;  /* 1 rem = 10px */
+  font-family: "Krub", sans-serif;
 }
 
 .title {
