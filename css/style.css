@@ -24,7 +24,7 @@ body {
   font-size: 2rem;
 }
 
-.nav-bg {
+.nav-bg { /* Utility first */
   background-color: var(--secundario);
 }
 
@@ -34,10 +34,20 @@ body {
 }
 
 .main-nav {
-  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.main-nav a {
-    color: var(--claro);
-    text-decoration: none;
+.main-nav a { /* Modulo */
+  padding: 1rem;
+  color: var(--claro);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.main-nav a:hover { /* Eventos o Pseudoclases */
+  background-color: var(--primario);
+  color: var(--oscuro);
 }
