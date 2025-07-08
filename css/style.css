@@ -32,3 +32,12 @@ body {
   width: 120rem;
   margin: 0 auto;
 }
+
+.main-nav {
+  padding: 1rem;
+}
+
+.main-nav a {
+    color: var(--claro);
+    text-decoration: none;
+}
